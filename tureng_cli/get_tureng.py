@@ -21,6 +21,5 @@ def get_request(url,word_type):
 
 def get_word_list(word,word_type):
     url = f"https://tureng.com/en/turkish-english/{word}"
-    print(url)
     word_tr_list = get_request(url,word_type)
     return word_tr_list

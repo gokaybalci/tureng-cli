@@ -21,7 +21,7 @@ def main():
         word_type = "en"
     
     word_list = get_word_list(word, word_type)[:10]
-    print(f"Word: {word} Language: {word_type}\n{'-'*40}")
+    print(f"📚 Word: {word} Language: {word_type}\n{'-'*40}")
     for word in word_list:
-        print(word)
+        print('\t✅' + " " +  word)
     
